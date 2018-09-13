@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	{% load staticfiles %}
+	{% for blog in blog %}
+	<img src="{{ blog.picture.url }}" />
+	{% endfor %}
+</body>
+</html>
